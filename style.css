@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* selettori generali */
+body {
+    background-image: url(img/background-body.png);
+}
+
+.page-wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.text-upp  {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* selettori header */
+header {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: url(img/logo.jpg);
+    background-size: cover;
+    padding: 53px;
+    text-align: center;
+    border: 10px solid white;
+    margin-top: 35px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header h2 {
+    font-size: 1em;
+    opacity: 0.6;
+    font-weight: lighter;
+}
+
+/* selettori nav */
+nav {
+    background-color: grey;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 17px;
+    color: white;
+}
+
+ul li:hover {
+    background-color: brown;
+}
+
+/* selettori page-content */
+.page-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-content {
+    margin: 20px 0;
+}
+
+aside, main {
+    float: left;
+}
+
+aside, .main-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+aside {
+    width: 20%;
+    position: relative;
+}
+
+main {
+    width: 50%;
+    margin: 0 5%;
+}
+
+.main-box {
+    margin-bottom: 20px;
+}
+
+.page-content aside:first-of-type h3 {
+    color: orange;
+    text-align: center;
+}
+
+aside h3 + img {
+    position: absolute;
+    height: 20px;
+    left: 15px;
+    top: 15px;
+}
+
+.page-content aside:first-of-type a {
+    display: block;
+    margin: 15px 0;
+    font-size: 1em;
+    color: green;
+}
+
+/* selettori footer */
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+footer #footer-top {
+    padding: 15px 0;
+    border-bottom: 4px solid black;
+    font-size: 16px;
+}
+
+footer #footer-bottom {
+    text-align: right;
+}
+
+footer img {
+    height: 20px;
+    margin: 2px 5px 0 5px;
+    cursor: pointer;
+}
