@@ -6,7 +6,7 @@
 
 /* selettori generali */
 body {
-    background-image: url(img/background-body.png);
+    background-image: url(../img/background-body.png);
 }
 
 .page-wrapper {
@@ -24,7 +24,7 @@ a {
 header {
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-image: url(img/logo.jpg);
+    background-image: url(../img/logo.jpg);
     background-size: cover;
     padding: 53px;
     text-align: center;
