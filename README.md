@@ -1,1 +1,1 @@
-<p>#4 Replica ispirata a tema Wordpress con (utilizzo della proprietà FLOAT)</p>
+<p>#4 Replica layout ispirata a tema Wordpress (utilizzo della proprietà FLOAT)</p>
